@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/apitask2/static/css/main.53fb884a.css",
-    "main.js": "/apitask2/static/js/main.a7729238.js",
-    "static/js/787.bb7cc920.chunk.js": "/apitask2/static/js/787.bb7cc920.chunk.js",
-    "index.html": "/apitask2/index.html",
-    "main.53fb884a.css.map": "/apitask2/static/css/main.53fb884a.css.map",
-    "main.a7729238.js.map": "/apitask2/static/js/main.a7729238.js.map",
-    "787.bb7cc920.chunk.js.map": "/apitask2/static/js/787.bb7cc920.chunk.js.map"
+    "main.css": "/apiTask/static/css/main.53fb884a.css",
+    "main.js": "/apiTask/static/js/main.2f13bd30.js",
+    "static/js/787.bb7cc920.chunk.js": "/apiTask/static/js/787.bb7cc920.chunk.js",
+    "index.html": "/apiTask/index.html",
+    "main.53fb884a.css.map": "/apiTask/static/css/main.53fb884a.css.map",
+    "main.2f13bd30.js.map": "/apiTask/static/js/main.2f13bd30.js.map",
+    "787.bb7cc920.chunk.js.map": "/apiTask/static/js/787.bb7cc920.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53fb884a.css",
-    "static/js/main.a7729238.js"
+    "static/js/main.2f13bd30.js"
   ]
 }
