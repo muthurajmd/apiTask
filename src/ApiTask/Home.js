@@ -270,15 +270,14 @@ useEffect(()=>{
       <div style={{}}>
      <Card sx={{ maxWidth: 345, margin:"15px 15px" }} key={i}>
       <CardMedia
-        sx={{ height: 140 }}
+        sx={{ height: 200 }}
         title="green iguana"
         image= {v.image.medium}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h6" component="div">
           Movie Name: {v.name} <br/>
-          Movies id:
-          {v.id}
+          Movies id: {v.id}
         </Typography>
         <Typography variant="body2" color="text.secondary">
          {/* {v.details} */}
@@ -287,7 +286,7 @@ useEffect(()=>{
       <CardActions>
       <Button variant="contained" onClick={()=>details(v.id)}>Detailed</Button>
       <Button variant="contained">
-        <a style={{textDecoration:"none",color:"white"}} href={v.url} target="_blank">Link</a>
+        <a style={{textDecoration:"none",color:"white"}} href={v.url} target="_blank">Original Web Link</a>
       </Button>
        
       </CardActions>
