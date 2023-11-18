@@ -110,7 +110,7 @@ useEffect(()=>{
   }
   const sear = (e) =>{
   setsearchh(e.target.value)
-    let ch= arr.filter(arr=>arr.name.includes(searchh))
+    let ch= arr.filter(arr=>arr.name.toLowerCase().includes(searchh.toLowerCase()))
     // dispatch(searchproduct(ch))
    console.log(ch)
 
